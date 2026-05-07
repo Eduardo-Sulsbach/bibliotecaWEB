@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de Controle de Devoluções</title>
+
+  <link rel="stylesheet" href="index.CSS">
+</head>
+<body>
+
+  <div class="painel">
+    <h1>Painel de Controle de Devoluções</h1>
+
+    <div class="contador">
+      <p>Total de livros processados: <span id="totalLivros">0</span></p>
+      <p>Livros com multa: <span id="livrosMulta">0</span></p>
+    </div>
+
+    <div class="formulario">
+      <input type="text" id="nomeLivro" placeholder="Nome do Livro">
+
+      <input type="number" id="diasAtraso" placeholder="Dias de Atraso">
+
+      <button id="btnRegistrar">
+        Registrar Devolução
+      </button>
+    </div>
+
+    <ul id="listaLivros"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
